@@ -35,6 +35,9 @@ define("data", ["lang"], function($) {
         //私有数据都是直接放到table中，普通数据放到table.data中
         if(!pvt) {
             table = table.data;
+            
+            
+            
         }
         if(name && typeof name === "object") {
             $.mix(table, name); //写入一组属性

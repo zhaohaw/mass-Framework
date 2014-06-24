@@ -158,7 +158,7 @@ define("data", ["lang"], function($) {
     });
     return $;
 });
-
+//
 /**
 2011.9.27 uniqueID改为uniqueNumber 简化data与removeData
 2011.9.28 添加$._data处理内部数据
